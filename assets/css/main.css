@@ -82,6 +82,53 @@
 .font--feinen {
   font-family: 'feinen'; }
 
+.form {
+  width: 100%;
+  max-width: 600px;
+  margin: 20px auto; }
+
+.form__fieldset {
+  border: 0; }
+
+.form__legend {
+  font-size: 2rem;
+  text-align: center;
+  width: 100%;
+  margin-bottom: 20px; }
+
+.form__group {
+  padding: 20px 35px;
+  background: linear-gradient(to right, rgba(255, 255, 255, 0.3) 0px, rgba(255, 255, 255, 0.2) 2px, transparent 4px), linear-gradient(to bottom, rgba(255, 255, 255, 0.3) 0px, rgba(255, 255, 255, 0.2) 2px, transparent 4px), linear-gradient(to left, rgba(0, 0, 0, 0.8) 0px, rgba(0, 0, 0, 0.6) 3px, transparent 5px), linear-gradient(to top, rgba(0, 0, 0, 0.8) 0px, rgba(0, 0, 0, 0.6) 3px, transparent 5px), url("../images/texture.jpg"); }
+
+.form__label {
+  display: block;
+  width: 100%;
+  margin-bottom: 10px;
+  font: 1.3rem 'Postanti'; }
+
+.form__textfield {
+  display: block;
+  width: 100%;
+  background: linear-gradient(to left, rgba(255, 255, 255, 0.3) 0px, rgba(255, 255, 255, 0.2) 1px, transparent 2px), linear-gradient(to top, rgba(255, 255, 255, 0.3) 0px, rgba(255, 255, 255, 0.2) 1px, transparent 2px), linear-gradient(to right, rgba(0, 0, 0, 0.8) 0px, rgba(0, 0, 0, 0.6) 2px, transparent 3px), linear-gradient(to bottom, rgba(0, 0, 0, 0.8) 0px, rgba(0, 0, 0, 0.6) 2px, transparent 3px), linear-gradient(to right, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0.5) 100%), url("../images/texture.jpg");
+  border: 0;
+  color: #fff;
+  padding: 10px 20px;
+  font: 1.1rem 'Postanti'; }
+
+.button {
+  border: 0;
+  background: linear-gradient(to right, rgba(255, 255, 255, 0.3) 0px, rgba(255, 255, 255, 0.2) 1px, transparent 2px), linear-gradient(to bottom, rgba(255, 255, 255, 0.3) 0px, rgba(255, 255, 255, 0.2) 1px, transparent 2px), linear-gradient(to left, rgba(0, 0, 0, 0.8) 0px, rgba(0, 0, 0, 0.6) 2px, transparent 3px), linear-gradient(to top, rgba(0, 0, 0, 0.8) 0px, rgba(0, 0, 0, 0.6) 2px, transparent 3px), url("../images/texture.jpg");
+  color: #fff;
+  font: 1.2rem 'Postanti';
+  padding: 10px 30px;
+  cursor: pointer; }
+
+.button:active {
+  background: linear-gradient(to left, rgba(255, 255, 255, 0.3) 0px, rgba(255, 255, 255, 0.2) 1px, transparent 2px), linear-gradient(to top, rgba(255, 255, 255, 0.3) 0px, rgba(255, 255, 255, 0.2) 1px, transparent 2px), linear-gradient(to right, rgba(0, 0, 0, 0.8) 0px, rgba(0, 0, 0, 0.6) 2px, transparent 3px), linear-gradient(to bottom, rgba(0, 0, 0, 0.8) 0px, rgba(0, 0, 0, 0.6) 2px, transparent 3px), url("../images/texture.jpg"); }
+
+.form .button {
+  margin-top: 15px; }
+
 .textured {
   background: url("../images/texture.jpg"); }
 

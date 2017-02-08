@@ -1,0 +1,64 @@
+.form
+{
+    width: 100%;
+    max-width: 600px;
+    margin: 20px auto;
+}
+
+.form__fieldset
+{
+    border: 0;
+}
+
+.form__legend
+{
+    font-size: 2rem;
+    text-align: center;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.form__group
+{
+    padding: 20px 35px;
+    @include textured-chiseled();
+}
+
+.form__label
+{
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+    font: 1.3rem 'Postanti';
+}
+
+.form__textfield
+{
+    display: block;
+    width: 100%;
+    @include textured-chiseled( 'dark', 'inner', 1px, 2px, 1px );
+    border: 0;
+    color: $color-white;
+    padding: 10px 20px;
+    font: 1.1rem 'Postanti';
+}
+
+.button
+{
+    border: 0;
+    @include textured-chiseled( 'normal', 'outer', 1px, 2px, 1px );
+    color: $color-white;
+    font: 1.2rem 'Postanti';
+    padding: 10px 30px;
+    cursor: pointer;
+}
+
+.button:active
+{
+    @include textured-chiseled( 'normal', 'inner', 1px, 2px, 1px );
+}
+
+.form .button
+{
+    margin-top: 15px;
+}
