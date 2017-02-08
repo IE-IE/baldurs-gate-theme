@@ -1,0 +1,64 @@
+.mCS-bg-theme.mCSB_scrollTools
+{
+  opacity: 1;
+}
+
+.mCS-bg-theme.mCSB_scrollTools .mCSB_dragger
+{
+  height: 16px;
+}
+
+.mCS-bg-theme.mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar
+{
+  background: url('../images/scroll-dragger.jpg');
+  width: 16px;
+  height: 16px;
+}
+
+.mCS-bg-theme.mCSB_scrollTools .mCSB_draggerRail
+{
+  background: transparent;
+}
+
+.mCS-bg-theme.mCSB_scrollTools .mCSB_draggerContainer
+{
+  @include textured-chiseled( 'dark', 'inner', 1px, 2px, 1px );
+  width: 16px;
+  margin: 16px 0;
+}
+
+.mCS-bg-theme.mCSB_scrollTools .mCSB_buttonUp
+{
+  width: 16px;
+  height: 16px;
+  background: url('../images/scroll-button-up.jpg');
+  opacity: 1;
+}
+
+.mCS-bg-theme.mCSB_scrollTools .mCSB_buttonUp:hover
+{
+    opacity: 1;
+}
+
+.mCS-bg-theme.mCSB_scrollTools .mCSB_buttonUp:active
+{
+  background: url('../images/scroll-button-up-active.jpg');
+}
+
+.mCS-bg-theme.mCSB_scrollTools .mCSB_buttonDown
+{
+  width: 16px;
+  height: 16px;
+  background: url('../images/scroll-button-down.jpg');
+  opacity: 1;
+}
+
+.mCS-bg-theme.mCSB_scrollTools .mCSB_buttonDown:hover
+{
+    opacity: 1;
+}
+
+.mCS-bg-theme.mCSB_scrollTools .mCSB_buttonDown:active
+{
+  background: url('../images/scroll-button-down-active.jpg');
+}

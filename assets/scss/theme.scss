@@ -1,0 +1,68 @@
+@import 'theme/mixin.textured-chiseled';
+@import 'theme/scrollbar';
+@import 'theme/fonts';
+@import 'theme/colors';
+
+.textured
+{
+  @include textured-chiseled( 'normal', 'none' );
+}
+
+.textured--dark
+{
+  @include textured-chiseled( 'dark', 'none' );
+}
+
+.textured.chiseled--outer
+{
+  @include textured-chiseled( 'normal', 'outer' );
+}
+
+.textured.chiseled--inner
+{
+  @include textured-chiseled( 'normal', 'inner' );
+}
+
+.textured--dark.chiseled--outer
+{
+  @include textured-chiseled( 'dark', 'outer' );
+}
+
+.textured--dark.chiseled--inner
+{
+  @include textured-chiseled( 'dark', 'inner' );
+}
+
+.textured--dark.chiseled--inner--narrow
+{
+  @include textured-chiseled( 'dark', 'inner', 1px, 2px, 1px );
+}
+
+.shadowed
+{
+  text-shadow: rgba(0,0,0,0.5) -1px 0,
+               rgba(0,0,0,0.3) 0 -1px,
+               rgba(255,255,255,0.5) 0 .5px,
+               rgba(0,0,0,0.3) -1px -2px;
+}
+
+.shadowed.white
+{
+  color: #ccc;
+}
+
+.capitalized
+{
+  text-transform: uppercase;
+}
+
+.capitalized::first-letter
+{
+  font-size: 1.5em;
+}
+
+.scrollable.mCustomScrollbar
+{
+  position: relative;
+  margin-right: 42px;
+}

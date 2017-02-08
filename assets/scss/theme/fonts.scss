@@ -1,0 +1,32 @@
+@font-face
+{
+  font-family: 'Sherwood';
+  src: url('../fonts/SHERWOOD.TTF');
+}
+
+@font-face
+{
+  font-family: 'Postanti';
+  src: url('../fonts/POSTANTI.TTF');
+}
+
+@font-face
+{
+  font-family: 'Feinen';
+  src: url('../fonts/FEINEN.TTF');
+}
+
+.font--sherwood
+{
+    font-family: 'Sherwood';
+}
+
+.font--postanti
+{
+    font-family: 'Postanti';
+}
+
+.font--feinen
+{
+    font-family: 'feinen';
+}

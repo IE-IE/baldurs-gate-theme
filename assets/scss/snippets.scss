@@ -1,0 +1,36 @@
+.block
+{
+    display: block;
+}
+
+.small
+{
+    font-size: 0.8em;
+}
+
+.smaller
+{
+    font-size: 0.6em;
+}
+
+.smallest
+{
+    font-size: 0.4em;
+}
+
+.text--right
+{
+    text-align: right;
+}
+
+.text--center
+{
+    text-align: center;
+}
+
+.clear::after
+{
+    content: '';
+    display: block;
+    clear: both;
+}

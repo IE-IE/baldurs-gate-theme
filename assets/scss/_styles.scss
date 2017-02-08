@@ -1,0 +1,37 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.page-body
+{
+  background: url('../images/background.jpg') no-repeat fixed;
+  background-size: cover;
+
+  font: 12px 'Postanti';
+  color: $color-white;
+
+  padding: 20px;
+
+  line-height: 1.5;
+}
+
+.page-header
+{
+    font: 2rem 'Sherwood';
+    color: $color-gold;
+    text-align: center;
+    float: right;
+    padding: 20px;
+}
+
+.test-block
+{
+    float: left;
+    margin: 20px;
+    padding: 20px;
+    width: 200px;
+    height: 200px;
+}

@@ -1,0 +1,149 @@
+.block {
+  display: block; }
+
+.small {
+  font-size: 0.8em; }
+
+.smaller {
+  font-size: 0.6em; }
+
+.smallest {
+  font-size: 0.4em; }
+
+.text--right {
+  text-align: right; }
+
+.text--center {
+  text-align: center; }
+
+.clear::after {
+  content: '';
+  display: block;
+  clear: both; }
+
+.mCS-bg-theme.mCSB_scrollTools {
+  opacity: 1; }
+
+.mCS-bg-theme.mCSB_scrollTools .mCSB_dragger {
+  height: 16px; }
+
+.mCS-bg-theme.mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar {
+  background: url("../images/scroll-dragger.jpg");
+  width: 16px;
+  height: 16px; }
+
+.mCS-bg-theme.mCSB_scrollTools .mCSB_draggerRail {
+  background: transparent; }
+
+.mCS-bg-theme.mCSB_scrollTools .mCSB_draggerContainer {
+  background: linear-gradient(to left, rgba(255, 255, 255, 0.3) 0px, rgba(255, 255, 255, 0.2) 1px, transparent 2px), linear-gradient(to top, rgba(255, 255, 255, 0.3) 0px, rgba(255, 255, 255, 0.2) 1px, transparent 2px), linear-gradient(to right, rgba(0, 0, 0, 0.8) 0px, rgba(0, 0, 0, 0.6) 2px, transparent 3px), linear-gradient(to bottom, rgba(0, 0, 0, 0.8) 0px, rgba(0, 0, 0, 0.6) 2px, transparent 3px), linear-gradient(to right, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0.5) 100%), url("../images/texture.jpg");
+  width: 16px;
+  margin: 16px 0; }
+
+.mCS-bg-theme.mCSB_scrollTools .mCSB_buttonUp {
+  width: 16px;
+  height: 16px;
+  background: url("../images/scroll-button-up.jpg");
+  opacity: 1; }
+
+.mCS-bg-theme.mCSB_scrollTools .mCSB_buttonUp:hover {
+  opacity: 1; }
+
+.mCS-bg-theme.mCSB_scrollTools .mCSB_buttonUp:active {
+  background: url("../images/scroll-button-up-active.jpg"); }
+
+.mCS-bg-theme.mCSB_scrollTools .mCSB_buttonDown {
+  width: 16px;
+  height: 16px;
+  background: url("../images/scroll-button-down.jpg");
+  opacity: 1; }
+
+.mCS-bg-theme.mCSB_scrollTools .mCSB_buttonDown:hover {
+  opacity: 1; }
+
+.mCS-bg-theme.mCSB_scrollTools .mCSB_buttonDown:active {
+  background: url("../images/scroll-button-down-active.jpg"); }
+
+@font-face {
+  font-family: 'Sherwood';
+  src: url("../fonts/SHERWOOD.TTF"); }
+@font-face {
+  font-family: 'Postanti';
+  src: url("../fonts/POSTANTI.TTF"); }
+@font-face {
+  font-family: 'Feinen';
+  src: url("../fonts/FEINEN.TTF"); }
+.font--sherwood {
+  font-family: 'Sherwood'; }
+
+.font--postanti {
+  font-family: 'Postanti'; }
+
+.font--feinen {
+  font-family: 'feinen'; }
+
+.textured {
+  background: url("../images/texture.jpg"); }
+
+.textured--dark {
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0.5) 100%), url("../images/texture.jpg"); }
+
+.textured.chiseled--outer {
+  background: linear-gradient(to right, rgba(255, 255, 255, 0.3) 0px, rgba(255, 255, 255, 0.2) 2px, transparent 4px), linear-gradient(to bottom, rgba(255, 255, 255, 0.3) 0px, rgba(255, 255, 255, 0.2) 2px, transparent 4px), linear-gradient(to left, rgba(0, 0, 0, 0.8) 0px, rgba(0, 0, 0, 0.6) 3px, transparent 5px), linear-gradient(to top, rgba(0, 0, 0, 0.8) 0px, rgba(0, 0, 0, 0.6) 3px, transparent 5px), url("../images/texture.jpg"); }
+
+.textured.chiseled--inner {
+  background: linear-gradient(to left, rgba(255, 255, 255, 0.3) 0px, rgba(255, 255, 255, 0.2) 2px, transparent 4px), linear-gradient(to top, rgba(255, 255, 255, 0.3) 0px, rgba(255, 255, 255, 0.2) 2px, transparent 4px), linear-gradient(to right, rgba(0, 0, 0, 0.8) 0px, rgba(0, 0, 0, 0.6) 3px, transparent 5px), linear-gradient(to bottom, rgba(0, 0, 0, 0.8) 0px, rgba(0, 0, 0, 0.6) 3px, transparent 5px), url("../images/texture.jpg"); }
+
+.textured--dark.chiseled--outer {
+  background: linear-gradient(to right, rgba(255, 255, 255, 0.3) 0px, rgba(255, 255, 255, 0.2) 2px, transparent 4px), linear-gradient(to bottom, rgba(255, 255, 255, 0.3) 0px, rgba(255, 255, 255, 0.2) 2px, transparent 4px), linear-gradient(to left, rgba(0, 0, 0, 0.8) 0px, rgba(0, 0, 0, 0.6) 3px, transparent 5px), linear-gradient(to top, rgba(0, 0, 0, 0.8) 0px, rgba(0, 0, 0, 0.6) 3px, transparent 5px), linear-gradient(to right, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0.5) 100%), url("../images/texture.jpg"); }
+
+.textured--dark.chiseled--inner {
+  background: linear-gradient(to left, rgba(255, 255, 255, 0.3) 0px, rgba(255, 255, 255, 0.2) 2px, transparent 4px), linear-gradient(to top, rgba(255, 255, 255, 0.3) 0px, rgba(255, 255, 255, 0.2) 2px, transparent 4px), linear-gradient(to right, rgba(0, 0, 0, 0.8) 0px, rgba(0, 0, 0, 0.6) 3px, transparent 5px), linear-gradient(to bottom, rgba(0, 0, 0, 0.8) 0px, rgba(0, 0, 0, 0.6) 3px, transparent 5px), linear-gradient(to right, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0.5) 100%), url("../images/texture.jpg"); }
+
+.textured--dark.chiseled--inner--narrow {
+  background: linear-gradient(to left, rgba(255, 255, 255, 0.3) 0px, rgba(255, 255, 255, 0.2) 1px, transparent 2px), linear-gradient(to top, rgba(255, 255, 255, 0.3) 0px, rgba(255, 255, 255, 0.2) 1px, transparent 2px), linear-gradient(to right, rgba(0, 0, 0, 0.8) 0px, rgba(0, 0, 0, 0.6) 2px, transparent 3px), linear-gradient(to bottom, rgba(0, 0, 0, 0.8) 0px, rgba(0, 0, 0, 0.6) 2px, transparent 3px), linear-gradient(to right, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0.5) 100%), url("../images/texture.jpg"); }
+
+.shadowed {
+  text-shadow: rgba(0, 0, 0, 0.5) -1px 0, rgba(0, 0, 0, 0.3) 0 -1px, rgba(255, 255, 255, 0.5) 0 0.5px, rgba(0, 0, 0, 0.3) -1px -2px; }
+
+.shadowed.white {
+  color: #ccc; }
+
+.capitalized {
+  text-transform: uppercase; }
+
+.capitalized::first-letter {
+  font-size: 1.5em; }
+
+.scrollable.mCustomScrollbar {
+  position: relative;
+  margin-right: 42px; }
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+.page-body {
+  background: url("../images/background.jpg") no-repeat fixed;
+  background-size: cover;
+  font: 12px 'Postanti';
+  color: #fff;
+  padding: 20px;
+  line-height: 1.5; }
+
+.page-header {
+  font: 2rem 'Sherwood';
+  color: #eabb4b;
+  text-align: center;
+  float: right;
+  padding: 20px; }
+
+.test-block {
+  float: left;
+  margin: 20px;
+  padding: 20px;
+  width: 200px;
+  height: 200px; }
+
+/*# sourceMappingURL=main.css.map */
