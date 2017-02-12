@@ -129,6 +129,23 @@
 .form .button {
   margin-top: 15px; }
 
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  border: 2px solid #999; }
+
+.table td,
+.table th {
+  border: 1px solid #999;
+  padding: 4px 8px; }
+
+.table thead,
+.table tfoot {
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0.5) 100%), url("../images/texture.jpg"); }
+
+.table tbody {
+  background: rgba(0, 0, 0, 0.2); }
+
 .textured {
   background: url("../images/texture.jpg"); }
 
