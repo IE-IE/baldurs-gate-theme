@@ -152,8 +152,13 @@
 
   <section class="textured chiseled--outer" style="padding: 20px 40px; margin-top: 20px;">
     <h2>Progressbar</h2>
-    <div class="progressbar">
-      <div class="progressbar__progress" style="width: 30%"></div>
+    <div class="progress">
+        <div class="progress__caption">Doing stuff</div>
+        <div class="progress__inner">
+          <div class="progress__bar" v-bind:style="{ width: progress + '%' }">
+            Progress: {{ progress }}%
+          </div>
+        </div>
     </div>
   </section>
 

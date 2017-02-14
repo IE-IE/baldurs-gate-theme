@@ -1,13 +1,20 @@
-.progressbar
+.progress__caption
 {
-    @include textured-chiseled( 'dark', 'inner' );
-    height: 30px;
-    padding: 3px;
+    text-align: center;
+    margin-bottom: 0.35em;
 }
 
-.progressbar__progress
+.progress__inner
+{
+    padding: 3px;
+    height: 20px;
+    @include textured-chiseled( 'dark', 'inner' );
+}
+
+.progress__bar
 {
     height: 100%;
     @include textured-chiseled( 'none', 'outer', 1px, 2px, 1px );
     background-color: $color-gold;
+    font-size: 0;
 }
