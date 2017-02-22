@@ -29,7 +29,7 @@
 
 .tabs__button.tabs__button--active
 {
-	@include textured-chiseled( 'dark', 'outer', 1px, 2px, 1px );
+	@include textured-chiseled( 'normal', 'outer', 1px, 2px, 1px );
 	color: $color-white;
 }
 
@@ -43,7 +43,7 @@
 {
 	display: none;
 	padding: 20px 30px;
-	@include textured-chiseled( 'dark', 'outer', 1px, 2px, 1px );
+	@include textured-chiseled( 'normal', 'outer', 1px, 2px, 1px );
 }
 
 .tabs__tab.tabs__tab--active
