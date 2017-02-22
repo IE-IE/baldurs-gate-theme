@@ -17,7 +17,7 @@
 
 .tabs__button
 {
-	@include textured-chiseled( 'dark', 'outer' );
+	@include textured-chiseled( 'dark', 'outer', 1px, 2px, 1px );
 	border: 0;
 	border-top-left-radius: 25px;
 	border-top-right-radius: 15px;
@@ -29,7 +29,7 @@
 
 .tabs__button.tabs__button--active
 {
-	@include textured-chiseled( 'normal', 'outer' );
+	@include textured-chiseled( 'dark', 'outer', 1px, 2px, 1px );
 	color: $color-white;
 }
 
@@ -43,7 +43,7 @@
 {
 	display: none;
 	padding: 20px 30px;
-	@include textured-chiseled( 'normal', 'outer' );
+	@include textured-chiseled( 'dark', 'outer', 1px, 2px, 1px );
 }
 
 .tabs__tab.tabs__tab--active

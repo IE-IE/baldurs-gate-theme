@@ -21,7 +21,7 @@
 .form__group
 {
     padding: 20px 35px;
-    @include textured-chiseled();
+    @include textured-chiseled( 'normal', 'outer', 1px, 2px, 1px );
 }
 
 .form__group--inline
