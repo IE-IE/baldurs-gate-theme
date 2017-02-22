@@ -42,6 +42,11 @@
   @include textured-chiseled( 'dark', 'inner', 1px, 2px, 1px );
 }
 
+.textured.chiseled--outer--narrow
+{
+  @include textured-chiseled( 'normal', 'outer', 1px, 2px, 1px );
+}
+
 .shadowed
 {
   text-shadow: rgba(0,0,0,0.5) -1px 0,
