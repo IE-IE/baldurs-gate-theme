@@ -1,0 +1,52 @@
+.tabs
+{
+
+}
+
+.tabs__nav
+{
+	display: flex;
+	flex-flow: row nowrap;
+	justify-content: flex-start;
+}
+
+.tabs__nav__item
+{
+	list-style: none;
+}
+
+.tabs__button
+{
+	@include textured-chiseled( 'dark', 'outer' );
+	border: 0;
+	border-top-left-radius: 25px;
+	border-top-right-radius: 15px;
+	padding: 15px 25px;
+	font: 1.2rem 'Postanti';
+	color: $color-light-grey;
+	cursor: pointer;
+}
+
+.tabs__button.tabs__button--active
+{
+	@include textured-chiseled( 'normal', 'outer' );
+	color: $color-white;
+}
+
+.tabs__button:hover,
+.tabs__button:focus
+{
+	color: $color-white;
+}
+
+.tabs__tab
+{
+	display: none;
+	padding: 20px 30px;
+	@include textured-chiseled( 'normal', 'outer' );
+}
+
+.tabs__tab.tabs__tab--active
+{
+	display: block;	
+}

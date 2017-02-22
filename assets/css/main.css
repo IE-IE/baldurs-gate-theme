@@ -100,11 +100,21 @@
   padding: 20px 35px;
   background: linear-gradient(to right, rgba(255, 255, 255, 0.3) 0px, rgba(255, 255, 255, 0.2) 2px, transparent 4px), linear-gradient(to bottom, rgba(255, 255, 255, 0.3) 0px, rgba(255, 255, 255, 0.2) 2px, transparent 4px), linear-gradient(to left, rgba(0, 0, 0, 0.8) 0px, rgba(0, 0, 0, 0.6) 3px, transparent 5px), linear-gradient(to top, rgba(0, 0, 0, 0.8) 0px, rgba(0, 0, 0, 0.6) 3px, transparent 5px), url("../images/texture.jpg"); }
 
+.form__group--inline {
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  justify-content: space-between; }
+
 .form__label {
   display: block;
   width: 100%;
   margin-bottom: 10px;
   font: 1.3rem 'Postanti'; }
+
+.form__group--inline .form__label {
+  margin-bottom: 0;
+  flex: 1; }
 
 .form__textfield {
   display: block;
@@ -114,6 +124,9 @@
   color: #fff;
   padding: 10px 20px;
   font: 1.1rem 'Postanti'; }
+
+.form__group--inline .form__textfield {
+  flex: 1.5; }
 
 .button {
   border: 0;
@@ -160,6 +173,40 @@
   background: linear-gradient(to right, rgba(255, 255, 255, 0.3) 0px, rgba(255, 255, 255, 0.2) 1px, transparent 2px), linear-gradient(to bottom, rgba(255, 255, 255, 0.3) 0px, rgba(255, 255, 255, 0.2) 1px, transparent 2px), linear-gradient(to left, rgba(0, 0, 0, 0.8) 0px, rgba(0, 0, 0, 0.6) 2px, transparent 3px), linear-gradient(to top, rgba(0, 0, 0, 0.8) 0px, rgba(0, 0, 0, 0.6) 2px, transparent 3px);
   background-color: #eabb4b;
   font-size: 0; }
+
+.tabs__nav {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: flex-start; }
+
+.tabs__nav__item {
+  list-style: none; }
+
+.tabs__button {
+  background: linear-gradient(to right, rgba(255, 255, 255, 0.3) 0px, rgba(255, 255, 255, 0.2) 2px, transparent 4px), linear-gradient(to bottom, rgba(255, 255, 255, 0.3) 0px, rgba(255, 255, 255, 0.2) 2px, transparent 4px), linear-gradient(to left, rgba(0, 0, 0, 0.8) 0px, rgba(0, 0, 0, 0.6) 3px, transparent 5px), linear-gradient(to top, rgba(0, 0, 0, 0.8) 0px, rgba(0, 0, 0, 0.6) 3px, transparent 5px), linear-gradient(to right, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0.5) 100%), url("../images/texture.jpg");
+  border: 0;
+  border-top-left-radius: 25px;
+  border-top-right-radius: 15px;
+  padding: 15px 25px;
+  font: 1.4rem 'Postanti';
+  color: #bbb;
+  cursor: pointer; }
+
+.tabs__button.tabs__button--active {
+  background: linear-gradient(to right, rgba(255, 255, 255, 0.3) 0px, rgba(255, 255, 255, 0.2) 2px, transparent 4px), linear-gradient(to bottom, rgba(255, 255, 255, 0.3) 0px, rgba(255, 255, 255, 0.2) 2px, transparent 4px), linear-gradient(to left, rgba(0, 0, 0, 0.8) 0px, rgba(0, 0, 0, 0.6) 3px, transparent 5px), linear-gradient(to top, rgba(0, 0, 0, 0.8) 0px, rgba(0, 0, 0, 0.6) 3px, transparent 5px), url("../images/texture.jpg");
+  color: #fff; }
+
+.tabs__button:hover,
+.tabs__button:focus {
+  color: #fff; }
+
+.tabs__tab {
+  display: none;
+  padding: 20px 30px;
+  background: linear-gradient(to right, rgba(255, 255, 255, 0.3) 0px, rgba(255, 255, 255, 0.2) 2px, transparent 4px), linear-gradient(to bottom, rgba(255, 255, 255, 0.3) 0px, rgba(255, 255, 255, 0.2) 2px, transparent 4px), linear-gradient(to left, rgba(0, 0, 0, 0.8) 0px, rgba(0, 0, 0, 0.6) 3px, transparent 5px), linear-gradient(to top, rgba(0, 0, 0, 0.8) 0px, rgba(0, 0, 0, 0.6) 3px, transparent 5px), url("../images/texture.jpg"); }
+
+.tabs__tab.tabs__tab--active {
+  display: block; }
 
 .textured {
   background: url("../images/texture.jpg"); }
