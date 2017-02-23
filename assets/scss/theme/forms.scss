@@ -81,3 +81,58 @@
 {
     margin-top: 15px;
 }
+
+/* checkbox */
+
+.form__checkbox
+{
+    input[type=checkbox]
+    {
+        position: absolute; 
+        overflow: hidden; 
+        clip: rect(0 0 0 0); 
+        height: 1px; width: 1px; 
+        margin: -1px; padding: 0; border: 0; 
+    }
+
+    label
+    {
+        cursor: pointer;
+        -webkit-touch-callout: none;
+        -webkit-user-select: none;
+        -khtml-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+        position: relative;
+    }
+
+    label::before
+    {
+        content: '';
+        width: 1em;
+        height: 1em;
+        @include textured-chiseled( 'dark', 'inner', 1px, 2px, 1px );
+        display: inline-block;
+        vertical-align: middle;
+        margin-right: 0.5em;
+        box-sizing: border-box;
+    }
+
+    label::after
+    {
+        content: 'x';
+        position: absolute;
+        left: 0;
+        display: none;
+        width: 1em;
+        text-align: center;
+        height: 1em;
+        top: -2px;
+    }
+
+    input[type=checkbox]:checked + label::after
+    {
+        display: inline-block;
+    }
+}

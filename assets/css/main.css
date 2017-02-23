@@ -142,6 +142,46 @@
 .form .button {
   margin-top: 15px; }
 
+/* checkbox */
+.form__checkbox input[type=checkbox] {
+  position: absolute;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  height: 1px;
+  width: 1px;
+  margin: -1px;
+  padding: 0;
+  border: 0; }
+.form__checkbox label {
+  cursor: pointer;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  position: relative; }
+.form__checkbox label::before {
+  content: '';
+  width: 1em;
+  height: 1em;
+  background: linear-gradient(to left, rgba(255, 255, 255, 0.3) 0px, rgba(255, 255, 255, 0.2) 1px, transparent 2px), linear-gradient(to top, rgba(255, 255, 255, 0.3) 0px, rgba(255, 255, 255, 0.2) 1px, transparent 2px), linear-gradient(to right, rgba(0, 0, 0, 0.8) 0px, rgba(0, 0, 0, 0.6) 2px, transparent 3px), linear-gradient(to bottom, rgba(0, 0, 0, 0.8) 0px, rgba(0, 0, 0, 0.6) 2px, transparent 3px), linear-gradient(to right, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0.5) 100%), url("../images/texture.jpg");
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 0.5em;
+  box-sizing: border-box; }
+.form__checkbox label::after {
+  content: 'x';
+  position: absolute;
+  left: 0;
+  display: none;
+  width: 1em;
+  text-align: center;
+  height: 1em;
+  top: -2px; }
+.form__checkbox input[type=checkbox]:checked + label::after {
+  display: inline-block; }
+
 .table {
   width: 100%;
   border-collapse: collapse;
