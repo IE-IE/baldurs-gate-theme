@@ -19,3 +19,11 @@ $('body').on('click', '.tabs__button', function () {
 });
 
 $('.form__select').selectric();
+$('.selectric-scroll').mCustomScrollbar({
+  scrollInertia: 0,
+  alwaysShowScrollbar: 2,
+  scrollButtons: { enable: false },
+  theme: "bg-theme",
+  autoDraggerLength: false,
+  scrollbarPosition: "outside"
+});
