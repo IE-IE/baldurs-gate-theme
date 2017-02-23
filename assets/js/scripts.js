@@ -17,3 +17,5 @@ $('body').on('click', '.tabs__button', function () {
 	$tabsContainer.find('.tabs__button').removeClass('tabs__button--active');
 	$this.addClass('tabs__button--active');
 });
+
+$('.form__select').selectric();

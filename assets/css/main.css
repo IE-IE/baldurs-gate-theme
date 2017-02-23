@@ -142,7 +142,6 @@
 .form .button {
   margin-top: 15px; }
 
-/* checkbox */
 .form__checkbox input[type=checkbox] {
   position: absolute;
   overflow: hidden;
@@ -181,6 +180,52 @@
   top: -0.05em; }
 .form__checkbox input[type=checkbox]:checked + label::after {
   display: inline-block; }
+
+.selectric-hide-select {
+  display: none; }
+
+.selectric {
+  background: linear-gradient(to left, rgba(255, 255, 255, 0.3) 0px, rgba(255, 255, 255, 0.2) 1px, transparent 2px), linear-gradient(to top, rgba(255, 255, 255, 0.3) 0px, rgba(255, 255, 255, 0.2) 1px, transparent 2px), linear-gradient(to right, rgba(0, 0, 0, 0.8) 0px, rgba(0, 0, 0, 0.6) 2px, transparent 3px), linear-gradient(to bottom, rgba(0, 0, 0, 0.8) 0px, rgba(0, 0, 0, 0.6) 2px, transparent 3px), url("../images/texture.jpg");
+  color: #fff;
+  font: 1.1rem 'Postanti';
+  cursor: pointer;
+  padding: 8px 15px 8px 15px;
+  position: relative; }
+
+.selectric .button {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  margin-top: 0;
+  padding: 0;
+  text-align: center;
+  width: 30px; }
+
+.selectric-wrapper {
+  position: relative; }
+
+.selectric-items {
+  display: none;
+  position: absolute;
+  z-index: 15;
+  background: linear-gradient(to left, rgba(255, 255, 255, 0.3) 0px, rgba(255, 255, 255, 0.2) 1px, transparent 2px), linear-gradient(to top, rgba(255, 255, 255, 0.3) 0px, rgba(255, 255, 255, 0.2) 1px, transparent 2px), linear-gradient(to right, rgba(0, 0, 0, 0.8) 0px, rgba(0, 0, 0, 0.6) 2px, transparent 3px), linear-gradient(to bottom, rgba(0, 0, 0, 0.8) 0px, rgba(0, 0, 0, 0.6) 2px, transparent 3px), linear-gradient(to right, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0.5) 100%), url("../images/texture.jpg");
+  padding: 8px 15px 8px 15px;
+  font-size: 1rem; }
+
+.selectric-items li {
+  list-style: none;
+  cursor: pointer;
+  color: #bbb; }
+
+.selectric-items li:hover {
+  color: #fff; }
+
+.selectric-open .selectric-items {
+  display: block; }
+
+.selectric-input {
+  display: none; }
 
 .table {
   width: 100%;

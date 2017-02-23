@@ -82,8 +82,6 @@
     margin-top: 15px;
 }
 
-/* checkbox */
-
 .form__checkbox
 {
     input[type=checkbox]
@@ -135,4 +133,68 @@
     {
         display: inline-block;
     }
+}
+
+.selectric-hide-select
+{
+    display: none;
+}
+
+.selectric
+{
+    @include textured-chiseled( 'normal', 'inner', 1px, 2px, 1px );
+    color: $color-white;
+    font: 1.1rem 'Postanti';
+    cursor: pointer;
+    padding: 8px 15px 8px 15px;
+    position: relative;
+}
+
+.selectric .button
+{
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    margin-top: 0;
+    padding: 0;
+    text-align: center;
+    width: 30px;
+}
+
+.selectric-wrapper
+{
+    position: relative;
+}
+
+.selectric-items
+{
+    display: none;
+    position: absolute;
+    z-index: 15;
+    @include textured-chiseled( 'dark', 'inner', 1px, 2px, 1px );
+    padding: 8px 15px 8px 15px;
+    font-size: 1rem;
+}
+
+.selectric-items li
+{
+    list-style: none;
+    cursor: pointer;
+    color: $color-light-grey;
+}
+
+.selectric-items li:hover
+{
+    color: $color-white;
+}
+
+.selectric-open .selectric-items
+{
+    display: block;
+}
+
+.selectric-input
+{
+    display: none;
 }
