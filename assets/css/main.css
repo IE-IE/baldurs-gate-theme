@@ -21,6 +21,9 @@
   display: block;
   clear: both; }
 
+.ov-auto {
+  overflow: auto; }
+
 .mCS-bg-theme.mCSB_scrollTools {
   opacity: 1; }
 
