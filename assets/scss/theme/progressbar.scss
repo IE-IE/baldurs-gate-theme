@@ -17,4 +17,6 @@
     @include textured-chiseled( 'none', 'outer', 1px, 2px, 1px );
     background-color: $color-gold;
     font-size: 0;
+    width: 0%;
+    transition: width 0.3s ease-in-out;
 }

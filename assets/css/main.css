@@ -273,7 +273,9 @@
   height: 100%;
   background: linear-gradient(to right, rgba(255, 255, 255, 0.3) 0px, rgba(255, 255, 255, 0.2) 1px, transparent 2px), linear-gradient(to bottom, rgba(255, 255, 255, 0.3) 0px, rgba(255, 255, 255, 0.2) 1px, transparent 2px), linear-gradient(to left, rgba(0, 0, 0, 0.8) 0px, rgba(0, 0, 0, 0.6) 2px, transparent 3px), linear-gradient(to top, rgba(0, 0, 0, 0.8) 0px, rgba(0, 0, 0, 0.6) 2px, transparent 3px);
   background-color: #eabb4b;
-  font-size: 0; }
+  font-size: 0;
+  width: 0%;
+  transition: width 0.3s ease-in-out; }
 
 .tabs__nav {
   display: flex;
