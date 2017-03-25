@@ -14,6 +14,7 @@
 
 .mCS-bg-theme.mCSB_scrollTools .mCSB_draggerContainer {
   background: linear-gradient(to left, rgba(255, 255, 255, 0.3) 0px, rgba(255, 255, 255, 0.2) 1px, transparent 2px), linear-gradient(to top, rgba(255, 255, 255, 0.3) 0px, rgba(255, 255, 255, 0.2) 1px, transparent 2px), linear-gradient(to right, rgba(0, 0, 0, 0.8) 0px, rgba(0, 0, 0, 0.6) 2px, transparent 3px), linear-gradient(to bottom, rgba(0, 0, 0, 0.8) 0px, rgba(0, 0, 0, 0.6) 2px, transparent 3px), linear-gradient(to right, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0.5) 100%), url("../images/texture.jpg");
+  background-position: 58% 16%;
   width: 16px;
   margin: 16px 0; }
 
@@ -75,7 +76,8 @@
 
 .form__group {
   padding: 20px 35px;
-  background: linear-gradient(to right, rgba(255, 255, 255, 0.3) 0px, rgba(255, 255, 255, 0.2) 1px, transparent 2px), linear-gradient(to bottom, rgba(255, 255, 255, 0.3) 0px, rgba(255, 255, 255, 0.2) 1px, transparent 2px), linear-gradient(to left, rgba(0, 0, 0, 0.8) 0px, rgba(0, 0, 0, 0.6) 2px, transparent 3px), linear-gradient(to top, rgba(0, 0, 0, 0.8) 0px, rgba(0, 0, 0, 0.6) 2px, transparent 3px), url("../images/texture.jpg"); }
+  background: linear-gradient(to right, rgba(255, 255, 255, 0.3) 0px, rgba(255, 255, 255, 0.2) 1px, transparent 2px), linear-gradient(to bottom, rgba(255, 255, 255, 0.3) 0px, rgba(255, 255, 255, 0.2) 1px, transparent 2px), linear-gradient(to left, rgba(0, 0, 0, 0.8) 0px, rgba(0, 0, 0, 0.6) 2px, transparent 3px), linear-gradient(to top, rgba(0, 0, 0, 0.8) 0px, rgba(0, 0, 0, 0.6) 2px, transparent 3px), url("../images/texture.jpg");
+  background-position: 63% 37%; }
 
 .form__group--inline {
   display: flex;
@@ -97,6 +99,7 @@
   display: block;
   width: 100%;
   background: linear-gradient(to left, rgba(255, 255, 255, 0.3) 0px, rgba(255, 255, 255, 0.2) 1px, transparent 2px), linear-gradient(to top, rgba(255, 255, 255, 0.3) 0px, rgba(255, 255, 255, 0.2) 1px, transparent 2px), linear-gradient(to right, rgba(0, 0, 0, 0.8) 0px, rgba(0, 0, 0, 0.6) 2px, transparent 3px), linear-gradient(to bottom, rgba(0, 0, 0, 0.8) 0px, rgba(0, 0, 0, 0.6) 2px, transparent 3px), linear-gradient(to right, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0.5) 100%), url("../images/texture.jpg");
+  background-position: 41% 27%;
   border: 0;
   color: #fff;
   padding: 10px 20px;
@@ -108,13 +111,15 @@
 .button {
   border: 0;
   background: linear-gradient(to right, rgba(255, 255, 255, 0.3) 0px, rgba(255, 255, 255, 0.2) 1px, transparent 2px), linear-gradient(to bottom, rgba(255, 255, 255, 0.3) 0px, rgba(255, 255, 255, 0.2) 1px, transparent 2px), linear-gradient(to left, rgba(0, 0, 0, 0.8) 0px, rgba(0, 0, 0, 0.6) 2px, transparent 3px), linear-gradient(to top, rgba(0, 0, 0, 0.8) 0px, rgba(0, 0, 0, 0.6) 2px, transparent 3px), url("../images/texture.jpg");
+  background-position: 39% 13%;
   color: #fff;
   font: 1.2rem 'Postanti';
   padding: 10px 30px;
   cursor: pointer; }
 
 .button:active {
-  background: linear-gradient(to left, rgba(255, 255, 255, 0.3) 0px, rgba(255, 255, 255, 0.2) 1px, transparent 2px), linear-gradient(to top, rgba(255, 255, 255, 0.3) 0px, rgba(255, 255, 255, 0.2) 1px, transparent 2px), linear-gradient(to right, rgba(0, 0, 0, 0.8) 0px, rgba(0, 0, 0, 0.6) 2px, transparent 3px), linear-gradient(to bottom, rgba(0, 0, 0, 0.8) 0px, rgba(0, 0, 0, 0.6) 2px, transparent 3px), url("../images/texture.jpg"); }
+  background: linear-gradient(to left, rgba(255, 255, 255, 0.3) 0px, rgba(255, 255, 255, 0.2) 1px, transparent 2px), linear-gradient(to top, rgba(255, 255, 255, 0.3) 0px, rgba(255, 255, 255, 0.2) 1px, transparent 2px), linear-gradient(to right, rgba(0, 0, 0, 0.8) 0px, rgba(0, 0, 0, 0.6) 2px, transparent 3px), linear-gradient(to bottom, rgba(0, 0, 0, 0.8) 0px, rgba(0, 0, 0, 0.6) 2px, transparent 3px), url("../images/texture.jpg");
+  background-position: 47% 65%; }
 
 .form .button {
   margin-top: 15px; }
@@ -142,6 +147,7 @@
   width: 1em;
   height: 1em;
   background: linear-gradient(to left, rgba(255, 255, 255, 0.3) 0px, rgba(255, 255, 255, 0.2) 1px, transparent 2px), linear-gradient(to top, rgba(255, 255, 255, 0.3) 0px, rgba(255, 255, 255, 0.2) 1px, transparent 2px), linear-gradient(to right, rgba(0, 0, 0, 0.8) 0px, rgba(0, 0, 0, 0.6) 2px, transparent 3px), linear-gradient(to bottom, rgba(0, 0, 0, 0.8) 0px, rgba(0, 0, 0, 0.6) 2px, transparent 3px), linear-gradient(to right, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0.5) 100%), url("../images/texture.jpg");
+  background-position: 58% 65%;
   display: inline-block;
   vertical-align: middle;
   margin-right: 0.5em;
@@ -163,6 +169,7 @@
 
 .selectric {
   background: linear-gradient(to left, rgba(255, 255, 255, 0.3) 0px, rgba(255, 255, 255, 0.2) 1px, transparent 2px), linear-gradient(to top, rgba(255, 255, 255, 0.3) 0px, rgba(255, 255, 255, 0.2) 1px, transparent 2px), linear-gradient(to right, rgba(0, 0, 0, 0.8) 0px, rgba(0, 0, 0, 0.6) 2px, transparent 3px), linear-gradient(to bottom, rgba(0, 0, 0, 0.8) 0px, rgba(0, 0, 0, 0.6) 2px, transparent 3px), linear-gradient(to right, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0.5) 100%), url("../images/texture.jpg");
+  background-position: 3% 48%;
   color: #fff;
   font: 1.1rem 'Postanti';
   cursor: pointer;
@@ -189,6 +196,7 @@
   position: absolute;
   z-index: 15;
   background: linear-gradient(to left, rgba(255, 255, 255, 0.3) 0px, rgba(255, 255, 255, 0.2) 1px, transparent 2px), linear-gradient(to top, rgba(255, 255, 255, 0.3) 0px, rgba(255, 255, 255, 0.2) 1px, transparent 2px), linear-gradient(to right, rgba(0, 0, 0, 0.8) 0px, rgba(0, 0, 0, 0.6) 2px, transparent 3px), linear-gradient(to bottom, rgba(0, 0, 0, 0.8) 0px, rgba(0, 0, 0, 0.6) 2px, transparent 3px), linear-gradient(to right, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0.5) 100%), url("../images/texture.jpg");
+  background-position: 4% 21%;
   padding: 8px 15px 8px 15px;
   font-size: 1rem; }
 
@@ -229,7 +237,8 @@
 
 .table thead,
 .table tfoot {
-  background: linear-gradient(to right, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0.5) 100%), url("../images/texture.jpg"); }
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0.5) 100%), url("../images/texture.jpg");
+  background-position: 26% 35%; }
 
 .table tbody {
   background: rgba(0, 0, 0, 0.2); }
@@ -241,13 +250,17 @@
 .progress__inner {
   padding: 3px;
   height: 20px;
-  background: linear-gradient(to left, rgba(255, 255, 255, 0.3) 0px, rgba(255, 255, 255, 0.2) 2px, transparent 4px), linear-gradient(to top, rgba(255, 255, 255, 0.3) 0px, rgba(255, 255, 255, 0.2) 2px, transparent 4px), linear-gradient(to right, rgba(0, 0, 0, 0.8) 0px, rgba(0, 0, 0, 0.6) 3px, transparent 5px), linear-gradient(to bottom, rgba(0, 0, 0, 0.8) 0px, rgba(0, 0, 0, 0.6) 3px, transparent 5px), linear-gradient(to right, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0.5) 100%), url("../images/texture.jpg"); }
+  background: linear-gradient(to left, rgba(255, 255, 255, 0.3) 0px, rgba(255, 255, 255, 0.2) 2px, transparent 4px), linear-gradient(to top, rgba(255, 255, 255, 0.3) 0px, rgba(255, 255, 255, 0.2) 2px, transparent 4px), linear-gradient(to right, rgba(0, 0, 0, 0.8) 0px, rgba(0, 0, 0, 0.6) 3px, transparent 5px), linear-gradient(to bottom, rgba(0, 0, 0, 0.8) 0px, rgba(0, 0, 0, 0.6) 3px, transparent 5px), linear-gradient(to right, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0.5) 100%), url("../images/texture.jpg");
+  background-position: 33% 56%; }
 
 .progress__bar {
   height: 100%;
   background: linear-gradient(to right, rgba(255, 255, 255, 0.3) 0px, rgba(255, 255, 255, 0.2) 1px, transparent 2px), linear-gradient(to bottom, rgba(255, 255, 255, 0.3) 0px, rgba(255, 255, 255, 0.2) 1px, transparent 2px), linear-gradient(to left, rgba(0, 0, 0, 0.8) 0px, rgba(0, 0, 0, 0.6) 2px, transparent 3px), linear-gradient(to top, rgba(0, 0, 0, 0.8) 0px, rgba(0, 0, 0, 0.6) 2px, transparent 3px);
+  background-position: 36% 55%;
   background-color: #eabb4b;
-  font-size: 0; }
+  font-size: 0;
+  width: 0%;
+  transition: width 0.3s ease-in-out; }
 
 .tabs__nav {
   display: flex;
@@ -259,6 +272,7 @@
 
 .tabs__button {
   background: linear-gradient(to right, rgba(255, 255, 255, 0.3) 0px, rgba(255, 255, 255, 0.2) 1px, transparent 2px), linear-gradient(to bottom, rgba(255, 255, 255, 0.3) 0px, rgba(255, 255, 255, 0.2) 1px, transparent 2px), linear-gradient(to left, rgba(0, 0, 0, 0.8) 0px, rgba(0, 0, 0, 0.6) 2px, transparent 3px), linear-gradient(to top, rgba(0, 0, 0, 0.8) 0px, rgba(0, 0, 0, 0.6) 2px, transparent 3px), linear-gradient(to right, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0.5) 100%), url("../images/texture.jpg");
+  background-position: 24% 65%;
   border: 0;
   border-top-left-radius: 25px;
   border-top-right-radius: 15px;
@@ -269,6 +283,7 @@
 
 .tabs__button.tabs__button--active {
   background: linear-gradient(to right, rgba(255, 255, 255, 0.3) 0px, rgba(255, 255, 255, 0.2) 1px, transparent 2px), linear-gradient(to bottom, rgba(255, 255, 255, 0.3) 0px, rgba(255, 255, 255, 0.2) 1px, transparent 2px), linear-gradient(to left, rgba(0, 0, 0, 0.8) 0px, rgba(0, 0, 0, 0.6) 2px, transparent 3px), linear-gradient(to top, rgba(0, 0, 0, 0.8) 0px, rgba(0, 0, 0, 0.6) 2px, transparent 3px), url("../images/texture.jpg");
+  background-position: 12% 38%;
   color: #fff; }
 
 .tabs__button:hover,
@@ -278,34 +293,43 @@
 .tabs__tab {
   display: none;
   padding: 20px 30px;
-  background: linear-gradient(to right, rgba(255, 255, 255, 0.3) 0px, rgba(255, 255, 255, 0.2) 1px, transparent 2px), linear-gradient(to bottom, rgba(255, 255, 255, 0.3) 0px, rgba(255, 255, 255, 0.2) 1px, transparent 2px), linear-gradient(to left, rgba(0, 0, 0, 0.8) 0px, rgba(0, 0, 0, 0.6) 2px, transparent 3px), linear-gradient(to top, rgba(0, 0, 0, 0.8) 0px, rgba(0, 0, 0, 0.6) 2px, transparent 3px), url("../images/texture.jpg"); }
+  background: linear-gradient(to right, rgba(255, 255, 255, 0.3) 0px, rgba(255, 255, 255, 0.2) 1px, transparent 2px), linear-gradient(to bottom, rgba(255, 255, 255, 0.3) 0px, rgba(255, 255, 255, 0.2) 1px, transparent 2px), linear-gradient(to left, rgba(0, 0, 0, 0.8) 0px, rgba(0, 0, 0, 0.6) 2px, transparent 3px), linear-gradient(to top, rgba(0, 0, 0, 0.8) 0px, rgba(0, 0, 0, 0.6) 2px, transparent 3px), url("../images/texture.jpg");
+  background-position: 37% 50%; }
 
 .tabs__tab.tabs__tab--active {
   display: block; }
 
 .textured {
-  background: url("../images/texture.jpg"); }
+  background: url("../images/texture.jpg");
+  background-position: 52% 70%; }
 
 .textured--dark {
-  background: linear-gradient(to right, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0.5) 100%), url("../images/texture.jpg"); }
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0.5) 100%), url("../images/texture.jpg");
+  background-position: 1% 51%; }
 
 .textured.chiseled--outer {
-  background: linear-gradient(to right, rgba(255, 255, 255, 0.3) 0px, rgba(255, 255, 255, 0.2) 2px, transparent 4px), linear-gradient(to bottom, rgba(255, 255, 255, 0.3) 0px, rgba(255, 255, 255, 0.2) 2px, transparent 4px), linear-gradient(to left, rgba(0, 0, 0, 0.8) 0px, rgba(0, 0, 0, 0.6) 3px, transparent 5px), linear-gradient(to top, rgba(0, 0, 0, 0.8) 0px, rgba(0, 0, 0, 0.6) 3px, transparent 5px), url("../images/texture.jpg"); }
+  background: linear-gradient(to right, rgba(255, 255, 255, 0.3) 0px, rgba(255, 255, 255, 0.2) 2px, transparent 4px), linear-gradient(to bottom, rgba(255, 255, 255, 0.3) 0px, rgba(255, 255, 255, 0.2) 2px, transparent 4px), linear-gradient(to left, rgba(0, 0, 0, 0.8) 0px, rgba(0, 0, 0, 0.6) 3px, transparent 5px), linear-gradient(to top, rgba(0, 0, 0, 0.8) 0px, rgba(0, 0, 0, 0.6) 3px, transparent 5px), url("../images/texture.jpg");
+  background-position: 10% 63%; }
 
 .textured.chiseled--inner {
-  background: linear-gradient(to left, rgba(255, 255, 255, 0.3) 0px, rgba(255, 255, 255, 0.2) 2px, transparent 4px), linear-gradient(to top, rgba(255, 255, 255, 0.3) 0px, rgba(255, 255, 255, 0.2) 2px, transparent 4px), linear-gradient(to right, rgba(0, 0, 0, 0.8) 0px, rgba(0, 0, 0, 0.6) 3px, transparent 5px), linear-gradient(to bottom, rgba(0, 0, 0, 0.8) 0px, rgba(0, 0, 0, 0.6) 3px, transparent 5px), url("../images/texture.jpg"); }
+  background: linear-gradient(to left, rgba(255, 255, 255, 0.3) 0px, rgba(255, 255, 255, 0.2) 2px, transparent 4px), linear-gradient(to top, rgba(255, 255, 255, 0.3) 0px, rgba(255, 255, 255, 0.2) 2px, transparent 4px), linear-gradient(to right, rgba(0, 0, 0, 0.8) 0px, rgba(0, 0, 0, 0.6) 3px, transparent 5px), linear-gradient(to bottom, rgba(0, 0, 0, 0.8) 0px, rgba(0, 0, 0, 0.6) 3px, transparent 5px), url("../images/texture.jpg");
+  background-position: 22% 55%; }
 
 .textured--dark.chiseled--outer {
-  background: linear-gradient(to right, rgba(255, 255, 255, 0.3) 0px, rgba(255, 255, 255, 0.2) 2px, transparent 4px), linear-gradient(to bottom, rgba(255, 255, 255, 0.3) 0px, rgba(255, 255, 255, 0.2) 2px, transparent 4px), linear-gradient(to left, rgba(0, 0, 0, 0.8) 0px, rgba(0, 0, 0, 0.6) 3px, transparent 5px), linear-gradient(to top, rgba(0, 0, 0, 0.8) 0px, rgba(0, 0, 0, 0.6) 3px, transparent 5px), linear-gradient(to right, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0.5) 100%), url("../images/texture.jpg"); }
+  background: linear-gradient(to right, rgba(255, 255, 255, 0.3) 0px, rgba(255, 255, 255, 0.2) 2px, transparent 4px), linear-gradient(to bottom, rgba(255, 255, 255, 0.3) 0px, rgba(255, 255, 255, 0.2) 2px, transparent 4px), linear-gradient(to left, rgba(0, 0, 0, 0.8) 0px, rgba(0, 0, 0, 0.6) 3px, transparent 5px), linear-gradient(to top, rgba(0, 0, 0, 0.8) 0px, rgba(0, 0, 0, 0.6) 3px, transparent 5px), linear-gradient(to right, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0.5) 100%), url("../images/texture.jpg");
+  background-position: 71% 62%; }
 
 .textured--dark.chiseled--inner {
-  background: linear-gradient(to left, rgba(255, 255, 255, 0.3) 0px, rgba(255, 255, 255, 0.2) 2px, transparent 4px), linear-gradient(to top, rgba(255, 255, 255, 0.3) 0px, rgba(255, 255, 255, 0.2) 2px, transparent 4px), linear-gradient(to right, rgba(0, 0, 0, 0.8) 0px, rgba(0, 0, 0, 0.6) 3px, transparent 5px), linear-gradient(to bottom, rgba(0, 0, 0, 0.8) 0px, rgba(0, 0, 0, 0.6) 3px, transparent 5px), linear-gradient(to right, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0.5) 100%), url("../images/texture.jpg"); }
+  background: linear-gradient(to left, rgba(255, 255, 255, 0.3) 0px, rgba(255, 255, 255, 0.2) 2px, transparent 4px), linear-gradient(to top, rgba(255, 255, 255, 0.3) 0px, rgba(255, 255, 255, 0.2) 2px, transparent 4px), linear-gradient(to right, rgba(0, 0, 0, 0.8) 0px, rgba(0, 0, 0, 0.6) 3px, transparent 5px), linear-gradient(to bottom, rgba(0, 0, 0, 0.8) 0px, rgba(0, 0, 0, 0.6) 3px, transparent 5px), linear-gradient(to right, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0.5) 100%), url("../images/texture.jpg");
+  background-position: 59% 32%; }
 
 .textured--dark.chiseled--inner--narrow {
-  background: linear-gradient(to left, rgba(255, 255, 255, 0.3) 0px, rgba(255, 255, 255, 0.2) 1px, transparent 2px), linear-gradient(to top, rgba(255, 255, 255, 0.3) 0px, rgba(255, 255, 255, 0.2) 1px, transparent 2px), linear-gradient(to right, rgba(0, 0, 0, 0.8) 0px, rgba(0, 0, 0, 0.6) 2px, transparent 3px), linear-gradient(to bottom, rgba(0, 0, 0, 0.8) 0px, rgba(0, 0, 0, 0.6) 2px, transparent 3px), linear-gradient(to right, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0.5) 100%), url("../images/texture.jpg"); }
+  background: linear-gradient(to left, rgba(255, 255, 255, 0.3) 0px, rgba(255, 255, 255, 0.2) 1px, transparent 2px), linear-gradient(to top, rgba(255, 255, 255, 0.3) 0px, rgba(255, 255, 255, 0.2) 1px, transparent 2px), linear-gradient(to right, rgba(0, 0, 0, 0.8) 0px, rgba(0, 0, 0, 0.6) 2px, transparent 3px), linear-gradient(to bottom, rgba(0, 0, 0, 0.8) 0px, rgba(0, 0, 0, 0.6) 2px, transparent 3px), linear-gradient(to right, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0.5) 100%), url("../images/texture.jpg");
+  background-position: 12% 4%; }
 
 .textured.chiseled--outer--narrow {
-  background: linear-gradient(to right, rgba(255, 255, 255, 0.3) 0px, rgba(255, 255, 255, 0.2) 1px, transparent 2px), linear-gradient(to bottom, rgba(255, 255, 255, 0.3) 0px, rgba(255, 255, 255, 0.2) 1px, transparent 2px), linear-gradient(to left, rgba(0, 0, 0, 0.8) 0px, rgba(0, 0, 0, 0.6) 2px, transparent 3px), linear-gradient(to top, rgba(0, 0, 0, 0.8) 0px, rgba(0, 0, 0, 0.6) 2px, transparent 3px), url("../images/texture.jpg"); }
+  background: linear-gradient(to right, rgba(255, 255, 255, 0.3) 0px, rgba(255, 255, 255, 0.2) 1px, transparent 2px), linear-gradient(to bottom, rgba(255, 255, 255, 0.3) 0px, rgba(255, 255, 255, 0.2) 1px, transparent 2px), linear-gradient(to left, rgba(0, 0, 0, 0.8) 0px, rgba(0, 0, 0, 0.6) 2px, transparent 3px), linear-gradient(to top, rgba(0, 0, 0, 0.8) 0px, rgba(0, 0, 0, 0.6) 2px, transparent 3px), url("../images/texture.jpg");
+  background-position: 26% 32%; }
 
 .shadowed {
   text-shadow: rgba(0, 0, 0, 0.5) -1px 0, rgba(0, 0, 0, 0.3) 0 -1px, rgba(255, 255, 255, 0.5) 0 0.5px, rgba(0, 0, 0, 0.3) -1px -2px; }

@@ -10,6 +10,8 @@
   $light-2: null;
   $dark-1: null;
   $dark-2: null;
+  $x-pos: random(75);
+  $y-pos: random(75);
 
   @if $chiseled == 'outer'
   {
@@ -51,5 +53,5 @@
   }
 
   background: $background;
-
+  background-position: #{$x-pos + '%'} #{$y-pos + '%'};
 }
